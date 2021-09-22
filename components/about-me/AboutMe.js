@@ -46,20 +46,40 @@ const AboutMe = () => {
             <h2>My Skills</h2>
             <ul className={classes.techList}>
               <li className={classes.techLi}>
-                <FontAwesomeIcon className={classes.iconR} icon={faReact} />
-                <h3>ReactJS / NextJS / React Router</h3>
+                <div className={classes.header}>
+                  <FontAwesomeIcon className={classes.iconR} icon={faReact} />
+                  <h3>ReactJS / NextJS / React Router</h3>
+                </div>
+                <div className={classes.body}>
+                  <p></p>
+                </div>
               </li>
               <li className={classes.techLi}>
-                <FontAwesomeIcon className={classes.iconJ} icon={faJs} />
-                <h3>JavaScript (ES6+)</h3>
+                <div className={classes.header}>
+                  <FontAwesomeIcon className={classes.iconJ} icon={faJs} />
+                  <h3>JavaScript (ES6+)</h3>
+                </div>
+                <div className={classes.body}>
+                  <p></p>
+                </div>
               </li>
               <li className={classes.techLi}>
-                <FontAwesomeIcon className={classes.iconH} icon={faHtml5} />
-                <h3>HTML5</h3>
+                <div className={classes.header}>
+                  <FontAwesomeIcon className={classes.iconH} icon={faHtml5} />
+                  <h3>HTML5</h3>
+                </div>
+                <div className={classes.body}>
+                  <p></p>
+                </div>
               </li>
               <li className={classes.techLi}>
-                <FontAwesomeIcon className={classes.iconC} icon={faCss3} />
-                <h3>CSS3 / SASS Modules</h3>
+                <div className={classes.header}>
+                  <FontAwesomeIcon className={classes.iconC} icon={faCss3} />
+                  <h3>CSS3 / SASS Modules</h3>
+                </div>
+                <div className={classes.body}>
+                  <p></p>
+                </div>
               </li>
             </ul>
           </div>
