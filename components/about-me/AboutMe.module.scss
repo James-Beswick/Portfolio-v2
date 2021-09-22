@@ -1,0 +1,107 @@
+.wrapper {
+  .h1Div {
+    display: flex;
+    justify-content: center;
+    :after {
+      content: '';
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      padding-top: 20px;
+      border-bottom: 1px solid #77002e;
+    }
+    .hiH1 {
+      color: #77002e;
+    }
+  }
+
+  .aboutMeWrapper {
+    display: flex;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    .aboutMe {
+      width: 40rem;
+      p {
+        font-style: italic;
+      }
+    }
+    .imgDiv {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50%;
+      border: 1px solid black;
+    }
+  }
+
+  .btnWrapper {
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .button {
+      background-color: #77002e;
+      border-color: transparent;
+      color: #fcb8d2;
+      width: 100%;
+      height: 2rem;
+      font-weight: bold;
+      &:hover {
+        color: white;
+        background-color: #77002ea1;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .techWrapper {
+    display: flex;
+    padding-left: 4rem;
+    justify-content: space-between;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+
+    .tech {
+      .techList {
+        display: flex;
+        list-style: none;
+        border: 0;
+        padding: 0;
+        font-style: italic;
+        justify-content: space-around;
+        .techLi {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 10rem;
+          margin-right: 4rem;
+
+          .iconR,
+          .iconJ,
+          .iconH,
+          .iconC {
+            font-size: 2rem;
+
+            &.iconR {
+              color: #61dbfb;
+            }
+            &.iconJ {
+              color: #f0dc4f;
+            }
+            &.iconH {
+              color: #e34c26;
+            }
+            &.iconC {
+              color: #264de4;
+            }
+          }
+          h3 {
+            padding-left: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

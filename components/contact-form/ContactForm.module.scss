@@ -1,0 +1,90 @@
+.errorText {
+  color: red;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+  min-width: 15rem;
+  flex: 1;
+
+  input,
+  label {
+    display: block;
+    min-width: 35rem;
+  }
+
+  label {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+
+  input,
+  select {
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20rem;
+    max-width: 100%;
+  }
+
+  input:focus {
+    outline: none;
+    border-color: #240370;
+    background-color: #e0d4fd;
+  }
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding-top: 1rem;
+
+  button {
+    font: inherit;
+    color: #5a1a01;
+    border: 1px solid #5a1a01;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+
+    &:hover,
+    &:active {
+      background-color: #5a1a01;
+      color: white;
+    }
+  }
+
+  .submit {
+    border: 1px solid #5a1a01;
+    background-color: #5a1a01;
+    color: white;
+
+    &:hover,
+    &:active {
+      background-color: #7a2706;
+    }
+
+    &:disabled {
+      cursor: disabled;
+      background-color: rgb(155, 153, 153);
+      color: whitesmoke;
+      border-color: rgb(155, 153, 153);
+    }
+  }
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+
+  &:focus {
+    border-color: #ff8800;
+    background-color: #fbe8d2;
+  }
+
+  label {
+    color: #ca3e51;
+  }
+}

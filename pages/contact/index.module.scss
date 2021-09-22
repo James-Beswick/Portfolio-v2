@@ -1,0 +1,22 @@
+.fragment {
+  display: block;
+  justify-content: center;
+  max-width: 40rem;
+  padding-top: 5rem;
+
+  .title {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+  }
+
+  .pTag {
+    border-bottom: 2px solid black;
+    padding-bottom: 1rem;
+  }
+
+  .contactForm {
+    border-bottom: 2px solid black;
+    padding-bottom: 2rem;
+  }
+}

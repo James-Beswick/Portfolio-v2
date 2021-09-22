@@ -1,0 +1,74 @@
+.outerDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.outerDiv .iconCard {
+  width: auto;
+}
+
+.outerDiv .iconCard .cardDiv {
+  -webkit-box-shadow: 0 2px 8px #77002e70;
+          box-shadow: 0 2px 8px #77002e70;
+}
+
+.outerDiv .iconCard .cardDiv .jsIcon,
+.outerDiv .iconCard .cardDiv .htmlIcon,
+.outerDiv .iconCard .cardDiv .reactIcon,
+.outerDiv .iconCard .cardDiv .cssIcon {
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3px;
+}
+
+.outerDiv .iconCard .cardDiv .jsIcon.jsIcon,
+.outerDiv .iconCard .cardDiv .htmlIcon.jsIcon,
+.outerDiv .iconCard .cardDiv .reactIcon.jsIcon,
+.outerDiv .iconCard .cardDiv .cssIcon.jsIcon {
+  color: #f0dc4f;
+  font-size: 1.5rem;
+}
+
+.outerDiv .iconCard .cardDiv .jsIcon.htmlIcon,
+.outerDiv .iconCard .cardDiv .htmlIcon.htmlIcon,
+.outerDiv .iconCard .cardDiv .reactIcon.htmlIcon,
+.outerDiv .iconCard .cardDiv .cssIcon.htmlIcon {
+  color: #e34c25;
+  font-size: 1.5rem;
+}
+
+.outerDiv .iconCard .cardDiv .jsIcon.reactIcon,
+.outerDiv .iconCard .cardDiv .htmlIcon.reactIcon,
+.outerDiv .iconCard .cardDiv .reactIcon.reactIcon,
+.outerDiv .iconCard .cardDiv .cssIcon.reactIcon {
+  color: #61dbfb;
+  font-size: 1.5rem;
+}
+
+.outerDiv .iconCard .cardDiv .jsIcon.cssIcon,
+.outerDiv .iconCard .cardDiv .htmlIcon.cssIcon,
+.outerDiv .iconCard .cardDiv .reactIcon.cssIcon,
+.outerDiv .iconCard .cardDiv .cssIcon.cssIcon {
+  color: #264de4;
+  font-size: 1.5rem;
+}
+
+.outerDiv .iconCard .cardDiv p {
+  margin-top: 0;
+  display: inline;
+  font-size: 15px;
+  padding: 3px;
+}
+/*# sourceMappingURL=QuoteIconList.module.css.map */

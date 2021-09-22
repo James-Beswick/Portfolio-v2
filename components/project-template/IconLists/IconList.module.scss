@@ -1,0 +1,47 @@
+.outerDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .iconCard {
+    width: auto;
+
+    .cardDiv {
+      box-shadow: 0 2px 8px #77002e70;
+
+      .jsIcon,
+      .htmlIcon,
+      .reactIcon,
+      .sassIcon {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        padding: 3px;
+
+        &.jsIcon {
+          color: #f0dc4f;
+          font-size: 1.5rem;
+        }
+        &.htmlIcon {
+          color: #e34c25;
+          font-size: 1.5rem;
+        }
+        &.reactIcon {
+          color: #61dbfb;
+          font-size: 1.5rem;
+        }
+        &.sassIcon {
+          color: #cd6699;
+          font-size: 1.5rem;
+        }
+      }
+
+      p {
+        margin-top: 0;
+        display: inline;
+        font-size: 15px;
+        padding: 3px;
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+$nav-lightpink: #fcb8d2;
+
+.header {
+  position: fixed;
+  width: 25%;
+  height: 100vh;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: block;
+  align-items: center;
+  background-color: #77002e;
+  padding: 20px 0px 30px 40px;
+  margin: 0;
+
+  nav {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: block;
+      align-items: baseline;
+    }
+
+    li {
+      border-bottom: 10px solid $nav-lightpink;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+
+      a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: $nav-lightpink;
+      }
+
+      &:hover {
+        border-bottom: 10px solid white;
+        a {
+          color: white;
+        }
+      }
+
+      .active {
+        text-decoration: underline;
+
+        &:after {
+          content: ' (current page)';
+        }
+      }
+    }
+  }
+
+  .icons {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      margin-top: 6rem;
+      border-top: 1px solid $nav-lightpink;
+      border-bottom: 1px solid $nav-lightpink;
+    }
+
+    .icon {
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: $nav-lightpink;
+      margin-right: 4rem;
+
+      &:hover {
+        color: #ffffff;
+        background-color: $nav-lightpink;
+        cursor: pointer;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .copyright {
+    padding-top: 2rem;
+    color: $nav-lightpink;
+  }
+}
+
+.logo {
+  h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: $nav-lightpink;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 4rem;
+  }
+}
