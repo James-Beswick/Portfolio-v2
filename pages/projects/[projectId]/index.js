@@ -25,6 +25,11 @@ export const getStaticPaths = () => {
           projectId: 'p2',
         },
       },
+      {
+        params: {
+          projectId: 'p3',
+        },
+      },
     ],
   };
 };
